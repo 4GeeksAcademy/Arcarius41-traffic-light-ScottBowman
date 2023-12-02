@@ -1,4 +1,5 @@
 import React from "react";
+import StopLight from "./StopLight";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -7,8 +8,8 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center">
-
-		<StopLight/div>
+			<StopLight />
+		</div>
 	);
 };
 
